@@ -1,0 +1,7 @@
+#!/bin/bash
+#SBATCH -J tmp
+#SBATCH --export=ALL
+#SBATCH -p q64GB
+
+ulimit -s unlimited -c unlimited
+./tmp $1 $2
