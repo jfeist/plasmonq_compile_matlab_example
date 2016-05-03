@@ -1,0 +1,8 @@
+*~
+*.out
+*.log
+
+# matlab compiler output
+tmp
+run_tmp.sh
+readme.txt
